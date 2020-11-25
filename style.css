@@ -5,13 +5,13 @@
   color: #276586;
 }
 .wrapper {
-  min-width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
   min-height: calc(100vh - 100px);
   background-color: #f7f7f7;
 }
 .nav {
-  min-width: 1300px;
+  max-width: 1300px;
   border-bottom: 1px solid #b5b7ba;
   background-color: #dfdfdf;
   margin: 0 auto;
@@ -134,7 +134,7 @@ h2 {
 }
 .footer {
   background-color: #434445;
-  min-width: 1300px;
+  max-width: 1300px;
   height: 100px;
   text-align: center;
   color: #222121;
@@ -163,31 +163,25 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 100%;
-    padding-left: 45px;
+  }
+  .servis_photo {
+    max-width: 375px;
   }
   h1 {
     text-align: left;
     font-size: 30px;
-    padding-left: 45px;
   }
   h2 {
     text-align: left;
   }
   .top {
     text-align: left;
-    padding-left: 45px;
   }
-  .job {
-    margin-right: 50px;
-  }
-  p {
-    padding-right: 400px;
-  }
+ 
   .footer {
     text-align: left;
   }
   .footer_text {
-    padding-left: 25px;
     color: white;
   }
 }
@@ -207,4 +201,8 @@ h2 {
   .content {
     margin: 0;
   }
+  .main_photo {
+    width: 375px;
+  }
 }
+
