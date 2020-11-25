@@ -165,6 +165,7 @@ h2 {
   }
   .main_photo {
     max-width: 280px;
+    max-height: 280px;
   }
   .servis_photo {
     max-width: 375px;
