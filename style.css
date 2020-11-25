@@ -11,7 +11,6 @@
   background-color: #f7f7f7;
 }
 .nav {
-  max-width: 1300px;
   border-bottom: 1px solid #b5b7ba;
   background-color: #dfdfdf;
   margin: 0 auto;
@@ -50,6 +49,9 @@ h1 {
 }
 .personal {
   display: flex;
+}
+.about {
+  border: red solid 1px;
 }
 h2 {
   padding-top: 25px;
@@ -134,7 +136,6 @@ h2 {
 }
 .footer {
   background-color: #434445;
-  max-width: 1300px;
   height: 100px;
   text-align: center;
   color: #222121;
@@ -151,12 +152,10 @@ h2 {
   .main {
     align-items: center;
   }
-  .info {
-    flex-direction: column;
-  }
   .content {
     box-sizing: border-box;
     flex-direction: column;
+    align-items: center;
   }
   .nav {
     display: flex;
@@ -164,11 +163,12 @@ h2 {
     height: 100%;
   }
   .main_photo {
-    max-width: 320px;
-    max-height: 320px;
+    max-width: 280px;
+    max-height: 280px;
   }
   .servis_photo {
-    max-width: 375px;
+    max-width: 600px;
+    margin: 10px;
   }
   h1 {
     text-align: left;
@@ -202,5 +202,13 @@ h2 {
   }
   .content {
     margin: 0;
+  }
+  .personal {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_photo {
+    max-width: 100%;
+    max-height: 100%;
   }
 }
