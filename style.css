@@ -61,7 +61,7 @@ p {
   padding-top: 10px;
 }
 .main_photo {
-  width: 360px;
+ max-width: 360px;
   border-radius: 30px;
   margin: 25px 0 25px;
 }
@@ -164,7 +164,7 @@ h2 {
     height: 100%;
   }
   .main_photo {
-    max-width: 100%;
+    max-width: 320px;
   }
   .servis_photo {
     max-width: 375px;
@@ -201,8 +201,5 @@ h2 {
   }
   .content {
     margin: 0;
-  }
-  .main_photo {
-    width: 375px;
   }
 }
