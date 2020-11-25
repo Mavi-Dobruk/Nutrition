@@ -203,6 +203,6 @@ h2 {
     margin: 0;
   }
   .main_photo {
-    width: 375px;
+   max-width: 320px;
   }
 }
