@@ -70,7 +70,7 @@ p {
   margin: 0 auto;
 }
 .servis_photo {
-  width: 432px;
+  max-width: 432px;
 }
 .content {
   display: flex;
@@ -164,6 +164,9 @@ h2 {
     flex-direction: column;
     height: 100%;
   }
+  .main_photo {
+    max-width: 375px;
+  }
   .servis_photo {
     max-width: 375px;
   }
@@ -177,7 +180,6 @@ h2 {
   .top {
     text-align: left;
   }
- 
   .footer {
     text-align: left;
   }
@@ -205,4 +207,3 @@ h2 {
     width: 375px;
   }
 }
-
