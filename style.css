@@ -200,6 +200,7 @@ h2 {
   }
   .footer_text {
     color: white;
+    text-align: center;
   }
 }
 @media (max-width: 667px) {
