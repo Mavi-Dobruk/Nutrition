@@ -52,7 +52,7 @@
         </div>
     </div>
     <div class="footer">
-        <p class="footer_text">Copyright &copy; 2020 </p>
+        <p class="footer_text">Copyright &copy;<?php echo date("Y");?> </p>
     </div>
 </body>
 </html>
